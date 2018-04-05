@@ -1,0 +1,48 @@
+/* CSS Document */
+body
+{
+    margin: 0;
+    padding: 0;
+    font: 12px/1.5 arial;
+    color: #3E3E3E;
+    background:#fff;
+}
+.content{
+    background: #f4f4f4 none repeat scroll 0 0;
+    border-top:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+    margin: 0 auto;
+    min-width: 1180px;
+    width: 100%;
+
+}
+.content p{
+
+    color: #333;
+    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    outline: medium none;
+    word-wrap: break-word;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0;
+    position: relative;
+    width: 900px;
+}
+.opera{
+    text-align:left;
+}
+#btn
+{
+    color: #5d2121;
+    font-family: Microsoft YaHei;
+    cursor: pointer;
+    text-align:center;
+}
+#btn i{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
