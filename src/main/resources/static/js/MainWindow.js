@@ -308,7 +308,18 @@
     }
     //上传没帮助
     function getNotAdmireClick(id,dislike){
-        showRecvMsg("非常抱歉没能找到您要的答案，关于这个问题，请联系财务在线项目组：xxxxx或邮件反馈至财务在线项目组邮箱xxxx");
+        var isUploaded = false;
+        $.each(uploadAlready, function (key, val) {
+            if (val === id) {
+                isUploaded = true;
+                showRecvMsg("这个问题您已经反馈过了哦，请不要重复反馈^_^");
+                return;
+            }
+        });
+        if (!isUploaded) {
+            uploadAlready.push(id);
+            showRecvMsg("非常抱歉没能找到您要的答案，关于这个问题，请联系财务在线项目组：xxxxx或邮件反馈至财务在线项目组邮箱xxxx");
+        }
     }
 
 
