@@ -33,7 +33,7 @@ public class AjaxController {
         return "test for ajax controller connect...";
     }
 
-    //HttpServletRequest request
+    //HttpServletRequest  request
     @RequestMapping("/getHits")
     @ResponseBody
     String getHits(String question) {

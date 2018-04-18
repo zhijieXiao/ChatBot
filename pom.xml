@@ -73,6 +73,12 @@
 			<!--<artifactId>spring-context</artifactId>-->
 			<!--<version>4.1.6.RELEASE</version>-->
 		<!--</dependency>-->
+		<!--excel 读取-->
+		<dependency>
+			<groupId>jexcelapi</groupId>
+			<artifactId>jxl</artifactId>
+			<version>2.4.2</version>
+		</dependency>
 	</dependencies>
 
 	<build>
